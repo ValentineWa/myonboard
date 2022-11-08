@@ -6,9 +6,19 @@
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.clojure/java.jdbc "0.7.12"]
                  [org.postgresql/postgresql "42.5.0"]
+                 [compojure "1.7.0"]
+                 [http-kit "2.3.0"]
                  ]
   :main ^:skip-aot myonboard.core
   :target-path "target/%s"
   :uberjar-name "myonboard.jar"
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+
+
+
+
+
+
+
+
